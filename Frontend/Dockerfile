@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/nginx:1.18
+FROM rhel8/nginx-118
 
 COPY . /opt/app-root/src
 
