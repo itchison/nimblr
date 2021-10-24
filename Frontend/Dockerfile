@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/nginx:1.21
+FROM public.ecr.aws/bitnami/nginx:1.18
 
 COPY . /opt/app-root/src
 
