@@ -1,5 +1,5 @@
-FROM rhel8/nginx-118
+FROM registry.access.redhat.com/ubi8/nginx-118
 
-COPY . /opt/app-root/src
+COPY . .
 
 EXPOSE 80 443
