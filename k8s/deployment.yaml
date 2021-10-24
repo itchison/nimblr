@@ -15,7 +15,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - image: quay.io/openshift-pipeline/frontend:latest
+        - image: image-registry.openshift-image-registry.svc:5000/nimblr/frontend:latest
           imagePullPolicy: Always
           name: frontend
           ports:
