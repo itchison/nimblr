@@ -1,7 +1,6 @@
-FROM registry.access.redhat.com/ubi8/nginx-118
+FROM public.ecr.aws/bitnami/nginx:1.21
 
-COPY . .
+COPY . /app
 
-EXPOSE 80 443
-
-CMD nginx -g "daemon off;"
+EXPOSE 8080
+CMD ["sh","-c","nginx -g 'daemon off;'"]
