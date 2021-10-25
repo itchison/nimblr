@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/nginx:1.21
+FROM image-registry.openshift-image-registry.svc:5000/openshift/nginx
 
 COPY . /app
 
