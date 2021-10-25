@@ -23,7 +23,7 @@ spec:
         name: build-and-deploy
       params:
       - name: deployment-name
-        value: $(tt.params.git-repo-name)
+        value: nimblr
       - name: git-url
         value: $(tt.params.git-repo-url)
       - name: git-revision
