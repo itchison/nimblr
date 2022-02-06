@@ -1,6 +1,6 @@
 FROM nginx
 
-COPY . /opt/app-root/src
+COPY . /usr/share/nginx/html
 
 EXPOSE 8080
 CMD ["sh","-c","nginx -g 'daemon off;'"]
